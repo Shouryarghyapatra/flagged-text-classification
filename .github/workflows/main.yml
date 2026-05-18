@@ -25,7 +25,7 @@ jobs:
       - name: Install Dependencies
         run: |
           python -m pip install --upgrade pip
-          pip install -r requirements.txt
+          pip install -r /Users/shouryarghyapatra/Documents/GitHub/flagged-text-classification/flagged-text-classification/requirements.txt
 
       - name: Run Training Script
         run: python src/train.py
