@@ -18,3 +18,5 @@ scipy==1.17.1
 six==1.17.0
 threadpoolctl==3.6.0
 tqdm==4.67.3
+fastapi
+uvicorn
